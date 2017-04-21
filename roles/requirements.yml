@@ -1,0 +1,21 @@
+- src: fabiohbarbosa.oracle-jdk
+  name: java
+
+- src: gantsign.maven
+  name: maven
+
+- src: telusdigital.nodejs
+  name: nodejs
+
+- src: vcabourdin.terminator
+  name: terminator
+  
+- src: gantsign.oh-my-zsh
+  name: oh-my-zsh
+
+- src: wtanaka.chrome
+  name: google-chrome
+
+- src: gantsign.visual-studio-code
+  name: visual-studio-code
+

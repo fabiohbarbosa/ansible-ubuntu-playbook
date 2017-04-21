@@ -1,0 +1,15 @@
+---
+# galaxy roles
+
+- hosts: all
+  become: yes
+  vars_files:
+    - vars/galaxy.yml
+  roles:
+    - galaxy/java
+    - galaxy/maven
+    - galaxy/nodejs
+    - galaxy/terminator
+    - galaxy/oh-my-zsh
+    - galaxy/google-chrome
+    - galaxy/visual-studio-code
