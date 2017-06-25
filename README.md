@@ -21,8 +21,7 @@ Automate my linux machine installation, with the following configuration:
 ## Install
 
 ```sh
-$ sudo apt-get install git -y   
-$ git clone git@github.com:fabiohbarbosa/setup-ubuntu-ansible.git && cd dev-setup
+$ sudo ./pre-setup.sh
 $ ./setup.sh
 ```
 
