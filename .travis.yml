@@ -4,6 +4,6 @@ services:
 
 jobs:
   include:
-    - stage: zesty test
+    - stage: test
       script: 
-      - docker run -it --rm -v `pwd`:/runner ubuntu:zesty bash setup.sh
+      - bash test.sh
