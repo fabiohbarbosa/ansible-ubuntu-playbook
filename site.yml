@@ -8,6 +8,7 @@
     - role: local/git
       git_author: "Fabio Henrique Gonzales Barbosa"
       git_email: "fabiohbarbosa@gmail.com"
+      become: no
 
     - role: local/vim
 
