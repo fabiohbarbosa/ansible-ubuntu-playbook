@@ -10,6 +10,6 @@
 .vscode
 *.retry
 .zshrc
-roles/galaxy
-
 .IdeaIC2017.1/
+.gitconfig
+roles/galaxy

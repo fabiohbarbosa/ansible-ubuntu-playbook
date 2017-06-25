@@ -39,6 +39,3 @@
 
 - src: gantsign.intellij
   name: intellij
-
-# TODO linux-proxy
-# TODO docker-rmi
