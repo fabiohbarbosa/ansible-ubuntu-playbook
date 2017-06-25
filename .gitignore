@@ -1,4 +1,15 @@
-.vscode
+.ansible
+.ansible_galaxy
+.atom
+.bash_history
+.cache
+.config
+.local
 .history
-roles/galaxy
+.oh-my-zsh
+.vscode
 *.retry
+.zshrc
+roles/galaxy
+
+.IdeaIC2017.1/

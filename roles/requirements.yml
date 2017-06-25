@@ -1,5 +1,8 @@
-- src: fabiohbarbosa.oracle-jdk
-  name: java
+- src: vcabourdin.terminator
+  name: terminator
+  
+- src: gantsign.oh-my-zsh
+  name: oh-my-zsh
 
 - src: gantsign.maven
   name: maven
@@ -7,11 +10,26 @@
 - src: telusdigital.nodejs
   name: nodejs
 
-- src: vcabourdin.terminator
-  name: terminator
-  
-- src: gantsign.oh-my-zsh
-  name: oh-my-zsh
+- src: fabiohbarbosa.docker
+  name: docker
+
+- src: andrewrothstein.vagrant
+  name: vagrant
+
+- src: gantsign.atom
+  name: atom
+
+- src: jdauphant.sublimetext
+  name: sublime-text
+
+- src: wtanaka.inkscape
+  name: inkscape
+
+- src: fabiohbarbosa.shutter
+  name: shutter
+
+- src: fabiohbarbosa.synapse
+  name: synapse
 
 - src: wtanaka.chrome
   name: google-chrome
@@ -19,3 +37,8 @@
 - src: gantsign.visual-studio-code
   name: visual-studio-code
 
+- src: gantsign.intellij
+  name: intellij
+
+# TODO linux-proxy
+# TODO docker-rmi
