@@ -5,6 +5,8 @@
   become: yes
   
   roles:
+    - role: local/docker-rmi
+    
     - role: local/java
     
     - role: local/heroku

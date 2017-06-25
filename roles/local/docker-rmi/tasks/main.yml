@@ -1,0 +1,8 @@
+- name: Clone repository
+  git:
+    repo: 'https://github.com/fabiohbarbosa/docker-rmi.git'
+    dest: /opt/docker-rmi
+    version: master
+
+- name: Creating link in path
+  shell: cd /opt/docker-rmi/ && sudo ln -sf `pwd`/docker-rmi.sh /usr/local/bin/docker-rmi && sudo chmod +x /usr/local/bin/docker-rmi
