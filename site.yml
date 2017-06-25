@@ -5,6 +5,12 @@
   become: yes
   
   roles:
+    - role: local/git
+      git_author: "Fabio Henrique Gonzales Barbosa"
+      git_email: "fabiohbarbosa@gmail.com"
+
+    - role: local/vim
+
     - role: local/docker-rmi
     
     - role: local/java

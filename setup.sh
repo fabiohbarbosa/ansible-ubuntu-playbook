@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt-get install ansible python-apt -y
+
 rm -rf roles/galaxy
 ansible-galaxy install -p roles/galaxy/ -r roles/requirements.yml
 ansible-playbook -i assets/hosts site.yml -e username=$USER
