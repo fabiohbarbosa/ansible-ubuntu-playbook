@@ -1,9 +1,0 @@
-sudo: required
-services:
-  - docker
-
-jobs:
-  include:
-    - stage: test
-      script: 
-      - bash test.sh
