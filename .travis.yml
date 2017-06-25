@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+jobs:
+  include:
+    - stage: test
+      script: 
+      - docker run -it --rm -v `pwd`:/runner fabiohbarbosa/ansible-runner:ubuntu-17.04-zesty bash setup.sh
