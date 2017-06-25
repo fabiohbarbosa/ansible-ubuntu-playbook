@@ -4,6 +4,6 @@ services:
 
 jobs:
   include:
-    - stage: test
+    - stage: zesty test
       script: 
-      - docker run -it --rm -v `pwd`:/runner fabiohbarbosa/ansible-runner:ubuntu-17.04-zesty bash setup.sh
+      - docker run -it --rm -v `pwd`:/runner ubuntu:zesty bash setup.sh
