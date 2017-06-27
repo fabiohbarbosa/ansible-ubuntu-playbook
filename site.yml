@@ -23,6 +23,17 @@
     - role: galaxy/oh-my-zsh
       users:
         - username: "{{ username }}"
+          oh_my_zsh:
+            theme: awesomepanda
+            plugins:
+              - git
+              - mvn
+              - docker
+              - bower
+              - npm
+              - ng
+              - pip
+              - sudo
 
     - role: galaxy/maven
 
@@ -73,7 +84,6 @@
             - stubailo.ignore-gitignore
             - donjayamanne.githistory
             - donjayamanne.python
-            - xyz.local-history
             - haaaad.ansible
             - rbbit.typescript-hero
             - robertohuertasm.vscode-icons
@@ -90,6 +100,9 @@
           - name: JDK_1.6
             home: /usr/lib/jvm/java-6-oracle
           intellij_default_jdk: JDK_1.8
-
-# TODO linux-proxy
-# TODO docker-rmi
+          intellij_disabled_plugins:
+            - Lombook+Plugin
+            - BashSupport
+            - mobi.hsz.idea.gitignore
+            - com.vladsch.idea.multimarkdown
+            - Batch+Scripts+Support
