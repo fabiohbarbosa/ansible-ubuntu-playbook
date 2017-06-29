@@ -1,3 +1,3 @@
  # Ubuntu Playbook #
  
- Migratated to gitlab: https://gitlab.com/fabiohbarbosa/ubuntu-playbook
+ Migrated to gitlab: https://gitlab.com/fabiohbarbosa/ubuntu-playbook
